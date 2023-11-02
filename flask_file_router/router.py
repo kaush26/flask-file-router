@@ -1,8 +1,8 @@
 import os
 import re
-import utils
+from flask_file_router import utils
 import json
-from config import default_config
+from flask_file_router.config import default_config
 
 
 class Router:

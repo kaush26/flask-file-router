@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fp:
 
 setuptools.setup(
     name="flask_file_router",
-    version="0.0.3",
+    version="0.0.4",
     author="Kaushal Prasad Balmiki",
     description="File Based Routing for Flask Server",
     long_description=readme,
@@ -19,6 +19,6 @@ setuptools.setup(
     install_requires=['Flask'],
     keywords=['File Router', 'Flask', 'API', 'Python', 'Server'],
     python_requires=">=3.7",
-    py_modules=["flask_file_router"],
-    package_dir={'': 'flask_file_router'}
+    # py_modules=["flask_file_router"],
+    # package_dir={'': 'flask_file_router'}
 )
