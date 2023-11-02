@@ -1,1 +1,1 @@
-from src.router import Router
+from flask_file_router.router import Router

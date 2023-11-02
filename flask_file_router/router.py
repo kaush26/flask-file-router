@@ -36,7 +36,7 @@ class Router:
         if files_.__len__() == 0:
             return
 
-        root_path = root[6:] + "/"
+        root_path = root[self.config.get("root_dir").__len__():] + "/"
         routes = [
             {
                 "module": __import__(
