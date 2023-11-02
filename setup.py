@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fp:
 
 setuptools.setup(
     name="flask_file_router",
-    version="0.0.2",
+    version="0.0.3",
     author="Kaushal Prasad Balmiki",
     description="File Based Routing for Flask Server",
     long_description=readme,
